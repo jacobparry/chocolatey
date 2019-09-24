@@ -7,7 +7,7 @@ echo .
 
 @powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
 
-choco feature enable -n=allowGlobalConfirmation
+choco feature enable -n=allowGlobalConfirmation -y
 
 # Browsers
 choco install googlechrome
