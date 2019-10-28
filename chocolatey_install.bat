@@ -9,53 +9,53 @@ echo .
 
 choco feature enable -n=allowGlobalConfirmation -y
 
-# Browsers
+REM # Browsers
 choco install googlechrome
-choco install firefox 
+REM choco install firefox 
 
 # Development
 choco install elixir
-choco install php
-choco install python3
-choco install ruby
+REM choco install php
+REM choco install python3
+REM choco install ruby
 choco install git
 choco install git.install
-choco install linqpad
+REM choco install linqpad
 choco install postgresql
-choco install mysql
-choco install docker-for-windows
+REM choco install mysql
+REM choco install docker-for-windows
 
 # Text Editors
 choco install vscode
-choco install sublimetext3
-choco install sublimetext3.packagecontrol
-choco pin add -n vscode
-choco install atom
-choco install visualstudio2019community
+REM choco install sublimetext3
+REM choco install sublimetext3.packagecontrol
+REM choco pin add -n vscode
+REM choco install atom
+REM choco install visualstudio2019community
 
 # Utilities
-choco install 7zip
-choco install teamviewer
+REM choco install 7zip
+REM choco install teamviewer
 choco install 1password
-choco install keepass
+REM choco install keepass
 choco install windirstat 
-choco install virtualbox 
+REM choco install virtualbox 
 
 # Entertainment
 choco install slack
-choco install spotify
-choco install calibre
+REM choco install spotify
+REM choco install calibre
 
 # Games
-choco install hearthstone-deck-tracker
+REM choco install hearthstone-deck-tracker
 choco install battle.net
 choco install steam
-choco install discord
+REM choco install discord
 
-# Storage
-choco install dropbox
-choco install googledrive
+REM # Storage
+REM choco install dropbox
+REM choco install googledrive
 choco install google-backup-and-sync
-# choco install resilio-sync-home
+REM # choco install resilio-sync-home
 
 pause
